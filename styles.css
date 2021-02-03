@@ -101,485 +101,1291 @@ input, select {
     vertical-align:middle;
 }
 
-
-
 body{
-  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-  font-size: 14px;
-}
-
-.container{
-  width:100%;
-}
-
-.container img{
-  width: 30px;
-  height: 34px;
-  padding: 22px 0 126px 26px;
-}
-
-.heading{
-  height: 580px;
-  background-color:#F2ECE2 ;
+  width: 100%;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
 }
 
 
-
-.heading-left{
-  float: left;
-  max-width: 880px;
+nav{
+  width: 100%;
+  height:60px ;
+  background-color: #ffffff;
+  position:fixed;
+  overflow: hidden;
 }
 
-.heading-left h1{
-  font-size: 18px;
-  color:#222222;
-  margin-bottom: 50px;
+nav .navigation{
+  display: flex;
 }
 
-.heading-left p{
-  font-size: 42px;
-  color:#222222;
-  margin-bottom: 50px;
-  font-weight:800;
+.header-left{
+  font-size: 10px;
+  font-weight: bold;
+  margin:10px;
 }
 
-.text-box{
-  padding-left: 150px;
+.header-left img{
+  width: 90px;
 }
 
-
-.heading-left p span{
-  color:#E41E57 ;;
+.header-right{
+  margin: 0 0 0 auto;
+  background-color:#DA6B64 ;
+  width: 76px;
+  height: 62px;
+  text-align: center;
 }
 
-.heading-left a{
-  font-size: 14px;
-  color: #222222;
+.header-right img{
+  width: 20px;
+  height:25px;
+  padding-top: 10px;
+  margin: auto;
+  display: block;
 }
 
-.heading-right{
-  width: 540px;
-  height: 430px;
-  background-color: white;
-  border:solid 1px none;
-  float: right;
-  border-radius: 20px;
-  margin-right: 275px;
-  margin-top: 64px;
-  box-shadow:0px 6px 16px rgba(0, 0, 0, 0.12);
+.header-right a{
+  font-size: 12px;
+  text-decoration: none;
+  color:#ffff;
+  line-height: 20px;
+  display: block;
+  margin: auto;
 }
 
-.heading-right .list-header p{
-  font-size: 14px;
-  color: #222222;
-  font-weight: 600;
-  padding: 30px 0 30px 25px;
+.top-header{
+  width: 100%;
+  height: 312px;
+  text-align: center;
+  background-image: url(mainsp.jpg);
+  background-position:center;
+  background-size: cover;
+  padding-top:60px ;
 }
 
-.heading-right .list-header p a{
-  padding: 2px;
+.top-header img{
+  width:317px;
+  height: 111px;
+  margin: 20px;
 }
 
-.heading-right .room li{
-  list-style: none;
+.top-header h1{
+ font-size:18px ;
+ font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+ padding-top:23px ;
+ line-height:1.6 ;
+ letter-spacing:2px;
 }
 
-.heading-right .guest li{
-  list-style: none;
+.top-header p{
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin-top:9px;
 }
 
-.heading-right>h1{
-  font-size: 18px;
-  color: #222222;
-  margin: 30px 35px;
-  font-weight: normal;
+.header-contents{
+  background-color:#ebb94d ;
+  color: #FFFFFF;
+  width: 100%;
+  height: 570px;
 }
 
-.heading-right .box select,textarea{
-  font-size: 16px;
+.header-contents .top{
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height:1.6 ;
+  letter-spacing:3px ;
+  padding-top: 20px;
+  padding-bottom:30px ;
 }
 
-.heading-right .box form input{
-  width: 480px;
-  height: 55px;
-  margin-left: 25px;
-  border: 1px solid #cccccc;
-  border-radius: 8px 8px 0 0;
+.header-contents .important{
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  font-size: 15px;
+  font-weight: bold;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  margin:  auto;
+  width: 450px;
+  height: 18px;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 6px;
 }
 
-.heading-right .room>select{
-  height: 56px;
-  width: 486px;
-  margin-left: 25px;
-  border: 1px solid #cccccc;
-  border-top: none;
+.header-contents .button{
+text-align: center;
 }
 
-.guest li select{
-  height: 56px;
-  width: 486px;
-  margin-left: 25px;
-  border: 1px solid #cccccc;
-  border-top: none;
-  border-radius:0 0 8px 8px;
+.header-contents .button button{
+  color: #FFFFFF;
+  background-color: #DA6B64;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 100px;
+  height:95px;
+  width: 90%;
+  line-height: 1.8;
+  margin-top: 30px;
 }
 
-input,textarea{
-  font-size: 16px;
+.header-contents .student{
+text-align: center;
+font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+font-size: 15px;
+font-weight: bold;
+line-height: 1.4;
+margin-top:30px ;
 }
 
-.heading-right .list-header button{
-  background-color: #000;
-  color: #ffffff;
-  font-size: 18px;
-  border-style: none;
-  border-radius: 5px;
-  padding: 16px 32px;
-  font-weight: bolder;
-  width: 480px;
-  margin-left: 28px;
+.student,
+.six-years,
+.seven-years{
+  padding-bottom: 38px;
 }
 
-.main-wrapper .hosting h1{
-  font-size: 42px;
-  padding: 76px 0 44px 154px;
+.sns{
+  font-size: 10px;
+  font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
+  text-align: center;
 }
 
-.main-wrapper .hosting hr{
-  color: #cccccc;
+.sns a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  height: 21px;
+  padding: 3px 10px 3px 8px;
+  border-radius: 3px;
+}
+
+.sns .twitter {
+  background-color: #8FCBF0;
+  margin-right: 5px;
+}
+
+.sns .facebook{
+  background-color:#1877F2 ;
+}
+
+.sns .share{
+  background-color:#1877F2 ;
+  margin-left: 5px;
+}
+.sns svg{
+  width:14px ;
+  height: 14px;
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+
+main{
+  text-align: center;
   width: 100%;
 }
 
-.card-container{
+.top-title h1{
+  font-size: 18px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  line-height: 2;
+  letter-spacing: 2px;
+  padding:30px 0 ;
+}
+
+.top-title{
+  position: relative;
+  box-sizing: border-box;
+  margin: 30px 14px;
+}
+
+.top-title::after,
+.top-title::before{
+  position:absolute;
+  content: '';
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.top-title::before{
+top: 0;
+left: 0;
+border-top: 4px solid #EBB94D;
+border-left: 4px solid #EBB94D;
+}
+
+.top-title::after{
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #EBB94D;
+  border-right: 4px solid #EBB94D;
+}
+
+.top-main .main-contents{
+  background-image:url(introbottom.jpg);
+  background-position: center bottom;
+  background-size: contain;
+  height: inherit;
+  background-repeat: no-repeat;
+  padding-bottom: 48px;
+}
+
+.main-contents p{
+  font-size: 15px;
+  padding-bottom: 43px;
+  line-height: 1.6;
+  font-weight: normal;
+}
+
+.main-contents strong{
+  background:linear-gradient(transparent 70%,#EBB94D 70%);
+}
+
+.about-contents{
+  width: 100%;
+  background-color:#FEF5E0 ;
+  height:690px;
+}
+
+.about{
+  position:relative;
+  top: -30px;
+}
+
+.circle{
+  font-size: 12px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  color: #FFFFFF;
+  background-color: #ebb94d;
+  border-radius: 50%;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 60px;
+}
+
+.about-top h1{
+  font-size: 18px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  line-height: 2;
+  letter-spacing: 2px;
+  padding:30px 0 ;
+}
+
+.about-top{
+  position: relative;
+  box-sizing: border-box;
+  margin: 30px 14px;
+}
+
+.about-top::after,
+.about-top::before{
+  position:absolute;
+  content: '';
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.about-top::before{
+top: 0;
+left: 0;
+border-top: 4px solid #EBB94D;
+border-left: 4px solid #EBB94D;
+}
+
+.about-top::after{
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #EBB94D;
+  border-right: 4px solid #EBB94D;
+}
+
+.about-contents .sentence{
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-size:15px ;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 1.6;
+  padding:17px 0px 37px 0px;
+}
+
+.skill-box{
+  width: 92%;
+  height:auto ;
+  background-color: #FFFFFF;
+  border:2px solid #EBB94D;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.skill-box h2{
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  font-size: 15px;
+  padding: 13px 0 21px 0;
+}
+
+.five-point{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
-
-.card-container .card1{
-  width: 260px;
-  height: 446px;
+.five-point .box{
+  padding:0 21px 20px 0 ;
 }
 
-.card-container .card1 img{
-  width:258px;
-  height: 160px;
-  border-radius:10px;
-  object-fit: cover;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.card-container .card1 h2{
-  font-size: 24px;
-  font-weight: 800;
-  padding: 28px 0;
-  line-height: 1.2;
-}
-
-.card-container .card1 p{
-  font-size: 16px;
+.five-point p{
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-size: 10px;
   line-height: 1.4;
+  letter-spacing: 2px;
 }
 
-.card-container .card1 a{
-  display: block;
-  font-size: 14px;
-  color: #222222;
-  padding-top: 25px;
+.five-point img{
+  width: auto;
+  height: 30px;
+  padding-bottom: 14px;
 }
 
-
-
-
-
-.card-container .card2{
-  width: 260px;
-  height: 446px;
+.step-wrapper{
+  background-image: url(aboutsecondbgsp.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
 }
 
-.card-container .card2 img{
-  width:258px;
-  height: 160px;
-  border-radius:10px;
-  object-fit: cover;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.card-container .card2 h2{
-  font-size: 24px;
-  font-weight: 800;
-  padding: 28px 0;
+.step-wrapper h1{
+  color: #FFFFFF;
+  font-size:18px ;
   line-height: 1.2;
+  letter-spacing:2px ;
+  padding: 52px 0 27px 0;
 }
 
-.card-container .card2 p{
-  font-size: 16px;
-  line-height: 1.4;
-}
-
-.card-container .card2 a{
-  display: block;
-  font-size: 14px;
-  color: #222222;
-  padding-top: 25px;
-}
-
-
-
-
-
-.card-container .card3{
-  width: 260px;
-  height: 446px;
-}
-
-.card-container .card3 img{
-  width:258px;
-  height: 160px;
-  border-radius:10px;
-  object-fit: cover;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.card-container .card3 h2{
-  font-size: 24px;
-  font-weight: 800;
-  padding: 28px 0;
-  line-height: 1.2;
-}
-
-.card-container .card3 p{
-  font-size: 16px;
-  line-height: 1.4;
-}
-
-.card-container .card3 a{
-  display: block;
-  font-size: 14px;
-  color: #222222;
-  padding-top: 25px;
-}
-
-
-
-
-
-
-.card-container .card4{
-  width: 260px;
-  height: 446px;
-}
-
-.card-container .card4 img{
-  width:258px;
-  height: 160px;
-  border-radius:10px;
-  object-fit: cover;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.card-container .card4 h2{
-  font-size: 24px;
-  font-weight: 800;
-  padding: 28px 0;
-  line-height: 1.2;
-}
-
-.card-container .card4 p{
-  font-size: 16px;
-  line-height: 1.4;
-}
-
-.card-container .card4 a{
-  display: block;
-  font-size: 14px;
-  color: #222222;
-  padding-top: 25px;
-}
-
-
-
-.main-wrapper .community .human{
-  display: flex;
-  width: 1150px;
-  float: right;
-  margin-top: 122px;
-  justify-content: space-between;
-}
-
-
-
-.main-wrapper .community .navigation{
-  float: left;
-  text-align: left;
-  width: 400px;
-  padding: 220px 150px;
-  margin: 0;
-}
-
-.main-wrapper .community .navigation h1{
-  font-size: 48px;
-}
-
-.main-wrapper .community .navigation p{
-  width: 360px;
-  font-size: 18px;
-  margin:40px 0;
-  line-height: 1.2;
-}
-
-.main-wrapper .community .navigation button{
-  width: 136px;
-  height: 56px;
-  background-color:#FD365C ;
-  color:#ffffff;
-  border: none;
-  font-size: 18px;
-  font-weight:600 ;
-  border-radius: 10px;
-  outline: none;
-}
-
-.main-wrapper .community .navigation button:hover{
-  cursor: pointer;
-}
-
-
-.community .human .darrel{
-  width: 350px;
-  text-align: left;
-}
-
-.community .human .darrel img{
-  width: 318px;
-  height: 424px;
-  object-fit: cover;
-  border-radius: 10px;
-  padding: 0;
-}
-
-.community .human .darrel h2{
-  font-size: 24px;
-  font-weight: 800;
-  padding: 15px 0;
-}
-
-
-.community .human .darrel p{
-  font-size: 16px;
-  margin-bottom: 15px;
-}
-
-.community .human .darrel a{
-  color: #222222;
+.step-wrapper .top-step p{
+  color: #FFFFFF;
+  display:block;
+  font-size: 13px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
   font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 1.2;
 }
 
-
-
-.community .human .candida-jeff{
-  width: 350px;
-  text-align: left;
+.top-step .second-sentence{
+  padding-bottom: 24px;
 }
 
-.community .human .candida-jeff img{
-  width: 318px;
-  height: 424px;
-  object-fit: cover;
-  border-radius: 10px;
-  padding: 0;
+.top-step span{
+  color: #EBB94D;
 }
 
-.community .human .candida-jeff h2{
-  font-size: 24px;
-  font-weight: 800;
-  padding: 15px 0;
+.step{
+  width: 90%;
+  height: 118px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin:10px auto;
 }
 
-
-.community .human .candida-jeff p{
-  font-size: 16px;
-  margin-bottom: 15px;
-}
-
-.community .human .candida-jeff a{
-  color: #222222;
-  font-weight: bold;
-}
-
-
-
-.community .human .ryo{
-  width: 350px;
-  text-align: left;
-}
-
-.community .human .ryo img{
-  width: 318px;
-  height: 424px;
-  object-fit: cover;
-  border-radius: 10px;
-  padding: 0;
-}
-
-.community .human .ryo h2{
-  font-size: 24px;
-  font-weight: 800;
-  padding: 15px 0;
-}
-
-
-.community .human .ryo p{
-  font-size: 16px;
-  margin-bottom: 15px;
-}
-
-.community .human .ryo a{
-  color: #222222;
-  font-weight: bold;
-}
-
-.main-wrapper .community .next{
-  float: right;
-}
-
-.main-wrapper .community .next button{
-  background-color: #ffffff;
-  border: none;
-  box-shadow: 0 2px 8px gray;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  margin-right: 10px;
+.step h2{
+  display: inline-block;
+  font-size: 12px;
+  color: #FFFFFF;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  background-color:#EBB94D ;
+  width: 80%;
   text-align: center;
-  padding: 0px;
-  outline: none;
+  height: 15px;
+  border-radius:3px ;
+  margin: 20px 0;
+  padding-top: 5px;
+  letter-spacing: 1px;
+}
+
+.step p{
+  font-size:12px ;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-weight: bold;
+  line-height: 1.8;
+  letter-spacing: 2px;
+}
+
+
+.last-sentence{
+  background-color:#016EA9 ;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  height: 100px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  margin-top: 40px;
+}
+
+.last-sentence p{
+  padding:23px 0 23px 0 ;
+}
+
+.last-sentence span{
+  color:#EBB94D; 
+}
+
+.study h1{
+  font-size: 18px;
+  margin: 51px 0;
+  letter-spacing: 1.5px;
+}
+
+.study span{
+  font-size: 12px;
+}
+
+.study .first-sentence{
+  font-size: 15px;
+  margin-bottom: 22px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+
+.circle-list{
+  display: flex;
+  justify-content: space-around;
+  margin:0 60px;
+}
+
+.circle-list img{
+  width: 22%;
+  height: auto;
+}
+
+.study .second-sentence{
+  font-size: 12px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 24px 0;
+}
+
+.melit{
+  width: 100%;
+  background-color:#FEF5E0;
+  height: auto;
+  padding: 30px 0;
+}
+
+.melit-title h1{
+  font-size: 15px;
+  letter-spacing: 1.4px;
+  line-height: 1.4;
+  padding: 24px 0;
+}
+
+.melit-title h2{
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding-bottom:20px ;
+}
+
+
+
+.melit-title{
+  position: relative;
+  box-sizing: border-box;
+  margin: 30px 14px;
+}
+
+.melit-title::after,
+.melit-title::before{
+  position:absolute;
+  content: '';
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.melit-title::before{
+top: 0;
+left: 0;
+border-top: 4px solid #EBB94D;
+border-left: 4px solid #EBB94D;
+}
+
+.melit-title::after{
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #EBB94D;
+  border-right: 4px solid #EBB94D;
+}
+
+.melit-list img{
+  width: 95%;
+  height:120px ;
+  object-fit: cover;
+}
+
+.melit-list h3{
+  font-size: 15px;
+  color: #EBB94D;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-weight: bold;
+  padding: 15px 0 20px 0;
+  letter-spacing: 1.4px;
+}
+
+.melit-list p{
+  font-size: 12px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  padding-bottom: 20px;
+  width: 90%;
+  display: inline-block;
+  text-align: left;
+  color: #333333;
+}
+
+.support{
+  width: 92%;
+  background-color: #ffffff;
+  border: 2px solid #EBB94D;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.support .texta{
+  font-size:18px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-weight:bold;
+  color:#EBB94D;
+  letter-spacing: 2px;
+  padding: 13px 0 23px 0;
+}
+
+.support .textb{
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
+.support .textc{
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+  width: 95%;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  line-height: 1.4;
+  padding:20px 0 ;
+  font-weight: bold;
+}
+
+.end-sentence{
+  margin: 0 auto;
+  width: 97%;
+  padding: 18px 0 15px 0;
+}
+
+.end-sentence p{
+  font-size: 12px;
+  color: #333333;
+  line-height: 1.6;
+}
+
+.member-wrapper{
+  background-image: url(teacherbgsp.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.member-wrapper h2{
+  font-size: 18px;
+  padding-top:72px ;
+}
+
+.member-wrapper .text{
+  font-size: 12px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding-top: 47px;
+}
+
+.member{
+  width: 95%;
+  border: 3px solid #ffffff;
+  margin:120px auto 0 auto;
+  height:214px ;
+}
+
+.member img{
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+  position: relative;
+  top: -90px;
+}
+
+.member h3{
+  font-size: 12px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  position: relative;
+  top: -85px;
+}
+
+.member name{
+  font-size: 12px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1.3px;
+  position: relative;
+  top: -72px;
+}
+
+.member .texts{
+  width: 93%;
+  font-size: 12px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1.3px;
+  position: relative;
+  top: -60px;
+  line-height: 1.6;
+  letter-spacing: 1.2px;
+  display: inline-block;
+  text-align: left;
+}
+
+.question{
+  width: 100%;
+  height: auto;
+  background-color: #ebb94d;
+  padding-bottom:20px ;
+}
+
+.question .question-title{
+  margin:0 auto;
+  width: 96%;
+  color: #ffffff;
+  line-height: 2;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  padding:20px 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.question .circle{
+  background-color: #ffffff;
+  color: #ebb94d;
+  margin-top: 20px;
+}
+
+.president img{
+  width:30% ;
+  height:30%;
+  border: 3px solid #ebb94d;
+}
+
+
+
+.question-title::after,
+.question-title::before{
+  position:absolute;
+  content: '';
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.question-title::before{
+top: 0;
+left: 0;
+border-top: 4px solid #ffffff;
+border-left: 4px solid #ffffff;
+}
+
+.question-title::after{
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
+}
+
+.sankaku{
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 15px solid #ebb94d;
+  margin: 0 auto;
+}
+
+.answer h2{
+  font-size: 18px;
+  color: #333333;
+  letter-spacing: 1.5px;
+  margin-bottom:20px ;
+}
+
+.answer .textd{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  padding-bottom: 40px;
+  color: #333333;
+}
+
+.answer .texte{
+  font-size: 12px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  letter-spacing: .5px;
+  padding-bottom: 35px;
+}
+
+.president{
+  display: flex;
+  width: 97%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.president .sentence{
+  width: 100%;
+  text-align: left;
+}
+
+.president p{
+  color: #777;
+  font-size: 18px;
+  line-height: 1.6;
+  padding-left: 15px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  letter-spacing: 1.4px;
+}
+
+.president name{
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-size: 15.3px;
+  text-decoration: underline;
+  color: #777;
+  display: inline-block;
+  padding:20px 0 0 15px;
+  letter-spacing: 1.5px;
+  line-height:1.4 ;
+}
+
+.learning-wrapper{
+  width: 100%;
+  background-image: url(classbgsp.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.learning-wrapper h2{
+  color: #ffffff;
+  font-size: 18px;
+  padding-top:48px;
+  letter-spacing: 1.4px;
+}
+
+.learning-wrapper .textf{
+  color: #ffffff;
+  font-weight: bold;
+  padding-top: 24px;
+  padding-bottom: 18px;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+}
+
+.learning-list{
+  width:97% ;
+  background-color:#016EA9 ;
+  border-radius: 4px;
+  margin:15px  auto 0 auto;
+  border: 2px solid #016EA9;
+}
+
+.learning-list h3{
+  font-size:15px ;
+  color: #ffffff;
+  padding: 21px 0;
+}
+
+.learning-list ul{
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  letter-spacing:1px ;
+}
+
+
+.learning-list ul li{
+  padding: 16px 10px;
+  border-bottom: 1px dotted #e5e5e5 ;
+}
+
+.end-learning{
+  background-color: #016EA9;
+  width: 100%;
+  margin-top:40px ;
+}
+
+.end-learning p{
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  width: 99%;
+  line-height: 1.6;
+  letter-spacing: 1.4px;
+  padding:22px 0 ;
+}
+
+
+.action{
+  padding-bottom:55px;
+}
+
+.action h2{
+  font-size: 18px;
+  color: #333333;
+  margin:50px 0 ;
+  letter-spacing: 1px;
+}
+
+.action h2 svg{
+  padding:3px 3px 0 0;
+}
+
+
+
+.action-list ul li{
+  background-color:#FEF5E0 ;
+  width: 95%;
+  height: 55px;
+  margin: 0 auto 5px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.action-list img{
+  width: 35px;
+  height: 35px;
+  float: left;
+  padding:10px 15px ;
+}
+
+.action-list a{
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: block;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.action-list a:hover{
+  text-decoration: underline;
+}
+
+.action-list svg{
+  float: right;
+}
+
+.why-bangkok{
+  width: 100%;
+  background-image: url(bangkokbgsp.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.why-bangkok h2{
+  font-size: 24px;
+  letter-spacing: 2px;
+  padding-top: 46px;
+}
+
+.why-bangkok .texth{
+  font-size: 12px;
+  width: 400px;
+  text-align: left;
+  padding:34px 0 0 37px ;
+  line-height: 1.6;
+  letter-spacing: 1.2px;
+}
+
+.why-bangkok ul li{
+  font-size:12px ;
+  font-weight: bold;
+  width: 80%;
+  padding-top:25px ;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.why-bangkok .texti{
+  font-size: 15px;
+  font-weight: bold;
+  width: 80%;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding-top:30px ;
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.present{
+  background-color: #F7C23C;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.present h2{
+  color: #333333;
+  font-size:18px ;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top:32px ;
+}
+
+.present .textj{
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.6;
+  padding-top: 37px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.present span{
+  color: #333333;
+}
+
+.plus-present{
+  width: 95%;
+  border: 2px solid #ffffff;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.plus-present h3{
+  width: 250px;
+  font-size: 18px;
+  color: #333333;
+  background-color: #F7C23C;
+  line-height: 1.8;
+  letter-spacing: 2px;
+  position: relative;
+  top: -22.5px;
+  margin: 0 auto;
+}
+
+.present-content{
+  display: flex;
+  width: 80%;
+  margin:0 auto;
+  padding-bottom:30px ;
+}
+
+.present-content .circle{
+  background-color: #FFFFFF;
+  color: #F7C23C;
+
+}
+
+.present-content .textk{
+  color: #ffffff;
+  width: 72%;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+  display: inline-block;
+  text-align: left;
+  padding:15px 0 0 40px ;
+  font-weight: bold;
+}
+
+.not-volanteer{
+  background-image: url(specialdetailsp.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.not-volanteer h2{
+  line-height: 1.6;
+  letter-spacing: 2px;
+  padding-top: 45px;
+  font-size: 18px;
+}
+
+.not-volanteer .textm,
+.not-volanteer .textl{
+  font-size: 12px;
+  font-weight: bold;
+  padding-top:30px ;
+  padding-bottom: 45px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+
+.slowgun{
+  position: relative;
+  box-sizing: border-box;
+  margin: 30px 14px;
+}
+
+.slowgun::after,
+.slowgun::before{
+  position:absolute;
+  content: '';
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.slowgun::before{
+top: 0;
+left: 0;
+border-top: 4px solid #ffffff;
+border-left: 4px solid #ffffff;
+}
+
+.slowgun::after{
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
+}
+
+.slowgun h3{
+  font-size: 18px;
+  line-height: 2;
+  padding: 15px 0;
+  letter-spacing: .5px;
+}
+
+.message{
+  width: 95%;
+  color: #333333;
+  margin: 0 auto;
+  padding-bottom: 45px;
+}
+
+.message h2{
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  padding-top: 53px;
+}
+
+
+.message h3{
+ color: #333333;
+ line-height: 1.4;
+ letter-spacing: 2px;
+ padding-top:55px ;
+}
+
+.message img{
+  height: auto;
+  width: 100%;
+  padding-top:23px ;
+}
+
+.message .textn,
+.message ul,
+.message .texto{
+  font-size: 14px;
+  width: 100%;
+  text-align: left;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  padding:14px 0 ;
+}
+
+.form{
+  width: 100%;
+  background-color: #EBB94D;
+}
+
+.form h2{
+  font-size: 18px;
+  color: #333333;
+  padding-top:52px ;
+}
+
+
+.form p{
+  color: #333333;
+  font-size:12px ;
+  letter-spacing: 1.2px;
+  padding:38px 0 ;
+  font-weight: bold;
+}
+
+
+.form-contents input{
+  width: 92%;
+  height:55px ;
+  border-style: none;
+  border-radius:5px ;
+  margin-top: 25px;
+  padding-left:12px ;
+}
+
+.question-area textarea{
+width: 92%;
+height: 100px;
+margin-top: 47px;
+border: none;
+border-radius: 5px;
+padding: 15px 0 0 12px;
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+}
+
+.button-send button{
+  background-color:#DA6B64 ;
+  color: #ffffff;
+  border: none;
+  border-radius: 2em;
+  margin: 42px auto;
+  font-size:23px ;
+  letter-spacing: 20px;
+  font-weight: bold;
+  width: 94%;
+  height: 55px;
   cursor: pointer;
 }
 
-main {
-  height: 100vh;
+
+.foot-question{
+  width: 100%;
+}
+
+.foot-question h2{
+  color: #333333;
+  font-size:18px ;
+  letter-spacing: 1px;
+  padding-top:52px ;
+}
+
+.for-exanple{
+  padding: 35px 0;
+}
+
+.for-exanple .question-contents{
+  width: 92%;
+  border:  1px solid rgba(122,122,122,0.3);
+  box-shadow:0px .5px rgba(122, 122, 122, 0.2);
+  border-radius: 2px;
+  margin:0 auto 6px auto;
+  display: flex;
 }
 
 
 
+.question-contents a svg{
+  width:13px;
+  height:13px;
+  color: #016ea9;
+  padding-right: 2px;
+}
 
-@media screen and (max-width:743px){
-  .heading{
-    height:782px ;
-  }
+.question-contents a{
+  width: 88%;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+  letter-spacing: 1.3px;
+  padding: 10px;
+  text-align: left;
+}
 
-  .heading-left img{
-    display: none;
-  }
+.question-contents .drop-down svg{
+  padding-top: 9px;
+  color: rgba(122,122,122,0.7);
+}
 
-  .heading-left .text-box{
-    padding-top: 40px;
-  }
+footer{
+  background-color: #ECECEC;
+  width: 100%;
+  height: 140px;
+}
 
+.footer-wrapper p{
+  font-size: 10px;
+  color: #333333;
+  line-height: 1.4;
+  letter-spacing: .5px;
+}
+
+.footer-wrapper{
+  padding-top: 25px;
+  text-align: center;
+}
+
+.footer-wrapper span{
+  color: #337ab7;
+}
+
+
+#page-top{
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+#page-top a{
+  background-color: #ECECEC;
+  color:#333333 ;
+  font-size: 10px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  width: 47px;
+  height: 47px;
+}
+
+#page-top svg{
+  padding-top: 15px;
 }
